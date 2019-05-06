@@ -1,4 +1,4 @@
-# Git basic commands help
+# Git basic commands helper
 
 ### Commits
 Init git:
@@ -29,6 +29,18 @@ git branch [branch name]
 Change branch:
 ```
 git checkout [branch name]
+```
+Merge branch:
+```
+git merge [branch name]
+```
+Remove local branch:
+```
+git branch -D [branch name]
+```
+Remove remote branch:
+```
+git push --delete [remote name] [branch name]
 ```
 Synchronize local branch with remote branch:
 ```
