@@ -77,3 +77,7 @@ Remote list:
 ```
 git remote -v
 ```
+Edit remotes:
+```
+git remote set-url origin [new remote url]
+```
